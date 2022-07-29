@@ -17,3 +17,9 @@ body{
     background-color: #E5E7EB;
 }
 
+.logo{
+    margin: 12px;
+    height: 75px;
+    width: auto;
+
+}
