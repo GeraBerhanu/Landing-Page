@@ -8,6 +8,13 @@ body{
 .section1, .section2, .section3, .section4, .header, .footer{
     display: flex;
 }
+
+#column{
+    display: flex;
+    flex-direction: column;
+    
+}
+
 .section1, .header, .footer{
     padding-left: 80px;
     padding-right: 80px;
@@ -42,3 +49,33 @@ a {
     color: #E5E7EB;
     text-decoration: none;
   }
+
+.section1{
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+
+  .hero-text { 
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+
+}
+.hero-2text { 
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.image{
+    height: auto;
+    width: 350px;
+    align-self: center;
+    margin: 16px;
+}
+
+button{
+    background-color: #3882f6;
+    width: 70px;
+
+}
