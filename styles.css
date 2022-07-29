@@ -7,13 +7,36 @@ body{
 
 .section1, .section2, .section3, .section4, .header, .footer{
     display: flex;
+    flex: 1;
 }
 
-#column{
+.s1column, .s2column{
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
+}
+
+.s1column{
     margin-right: 18px;
-    
+}
+
+.s2column{
+    align-items: center;
+    justify-content: center;
+
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.row .s2column .s2image{
+    padding: 8px;
+    margin: 12px;
+    border: 4px solid midnightblue;
+
+
+
 }
 
 .section1, .header, .footer{
@@ -23,8 +46,20 @@ body{
 
 }
 
+.section2, .section3, .section4, .footer{
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+
 .section2, .section4{
     background-color:white;
+
+}
+
+.section2{
+    padding-bottom: 80px;
 }
 
 .section3{
@@ -70,7 +105,7 @@ a {
     color: #e5e7eb;
 }
 
-.image{
+.s1image{
     height: 300px;
     width: 700px;
     margin: 16px;
@@ -88,4 +123,14 @@ button{
     padding: 10px 20px;
     width: 110px;
     font-weight: bold;
+}
+
+
+.header-text{
+    font-size: 36px;
+    font-weight: 600;
+    margin: 32px;
+    text-align: center;
+    color: #1f2937;
+
 }
