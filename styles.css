@@ -12,6 +12,7 @@ body{
 #column{
     display: flex;
     flex-direction: column;
+    margin-right: 18px;
     
 }
 
@@ -53,29 +54,38 @@ a {
 .section1{
     padding-top: 80px;
     padding-bottom: 20px;
+    padding-right: 0px;
 }
 
 
-  .hero-text { 
+.hero-text { 
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
 
 }
+
 .hero-2text { 
     font-size: 18px;
     color: #e5e7eb;
 }
 
 .image{
-    height: auto;
-    width: 350px;
-    align-self: center;
+    height: 300px;
+    width: 700px;
     margin: 16px;
+    margin-left: auto;
+    margin-top: 0px;
+    flex-shrink: 0;
 }
 
 button{
+    text-align: center;
     background-color: #3882f6;
-    width: 70px;
-
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    width: 110px;
+    font-weight: bold;
 }
