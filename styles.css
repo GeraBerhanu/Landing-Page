@@ -4,7 +4,13 @@ body{
 
 }
 
+
+.section1, .section2, .section3, .section4, .header, .footer{
+    display: flex;
+}
 .section1, .header, .footer{
+    padding-left: 100px;
+    padding-right: 100px;
     background-color: #1f2937;
 
 }
@@ -17,9 +23,21 @@ body{
     background-color: #E5E7EB;
 }
 
+.header{
+    align-items: center;
+    gap: 12px;
+}
+
 .logo{
     margin: 12px;
+    margin-right: auto;
     height: 75px;
     width: auto;
 
 }
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+  }
