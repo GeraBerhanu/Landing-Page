@@ -138,15 +138,23 @@ button{
 
 .author{
     display: flex;
+    flex-direction: row;
     justify-content: end;
 }
 
 .quote{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+
+}
+
+.words{
+    display: flex;
+    justify-content: center;
 
 }
 
