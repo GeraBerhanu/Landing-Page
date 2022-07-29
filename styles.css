@@ -4,12 +4,12 @@ body{
 
 }
 
-.section1{
+.section1, .header, .footer{
     background-color: #1f2937;
 
 }
 
-.section2{
+.section2, .section4{
     background-color:white;
 }
 
@@ -17,11 +17,3 @@ body{
     background-color: #E5E7EB;
 }
 
-.section4{
-    background-color: white;
-}
-
-.footer{
-    background-color: #1f2937;
-
-}
