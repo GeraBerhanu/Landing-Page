@@ -10,7 +10,7 @@ body{
     flex: 1;
 }
 
-.s1column, .s2column{
+.s1column, .s2column, .s4column{
     display: flex;
     flex-direction: column;    
 }
@@ -23,6 +23,69 @@ body{
     align-items: center;
     justify-content: center;
 
+}
+
+.s4column{
+    margin-right: 48px;
+
+}
+
+.section4 .row{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    max-width: 790px;
+    justify-content: space-around;    background-color: #3882f6;
+    padding: 24px;
+
+}
+
+.section4 .header2{
+    color: white;
+    background-color: #3882f6;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bolder;
+
+    
+}
+.s4column span{
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.row .button{
+    text-align: center;
+    background-color: #3882f6;
+    color: white;
+    border: 4px solid white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 110px;
+    font-weight: bold;
+
+
+
+}
+
+.s4button{
+        display: flex;
+        flex-grow: 1;
+        max-width: 839px;
+        background-color: #3882f6;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        padding: 10px 20px;
+        font-weight: bold;
+        justify-content: space-around;   }
+
+
+
+.section4{
+    padding: 72px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .row{
