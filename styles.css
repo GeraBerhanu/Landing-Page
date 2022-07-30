@@ -10,6 +10,13 @@ body{
     flex: 1;
 }
 
+.footer{
+    color: white;
+    font-size: large;
+    font-weight: lighter;
+    padding: 32px;
+}
+
 .s1column, .s2column, .s4column{
     display: flex;
     flex-direction: column;    
@@ -63,8 +70,6 @@ body{
     padding: 10px 20px;
     width: 110px;
     font-weight: bold;
-
-
 
 }
 
