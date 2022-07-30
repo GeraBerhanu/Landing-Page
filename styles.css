@@ -207,7 +207,7 @@ button{
 .author{
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: center ;
 }
 
 .quote{
@@ -223,6 +223,7 @@ button{
 .words{
     display: flex;
     justify-content: center;
+    text-align: center;
 
 }
 
